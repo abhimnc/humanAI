@@ -1,4 +1,4 @@
-1.Why are you applying to this project?
+*1.Why are you applying to this project?*
 I began to learn dance few months back to explore new hobby. I am enjoying really much collabrating with people of all age groups. Since I am already working in AI field (computer vision to be specific), I started looking for possibility to explore possibility of AI in dance. I am lucky to find that this year GSOC is sponsoring such kind of projects and I love to be part of it.
 
 
