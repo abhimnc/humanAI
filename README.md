@@ -64,3 +64,9 @@ upload_npy_files()           # Colab interface to upload .npy files (if needed)
 
 
 Model Structure
+
+
+
+Generated Results
+
+
