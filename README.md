@@ -75,6 +75,9 @@ Model Structure:
 
 Generated Results:
 
+![image](https://github.com/user-attachments/assets/286c3ca1-f2f9-4aac-ad23-5973300a4644)
+
+
     Examples on a small holdout test set will appear here:
     Generating a dance sequence from a natural language input 
     Generating natural language from a dance sequence input
