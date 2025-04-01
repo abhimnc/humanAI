@@ -22,7 +22,7 @@ Solution Approach
 
 The comprehensive solution plan involves:
 
-
+    More detail will be added before.
 
 
 Key Deliverables
@@ -35,7 +35,7 @@ Key Deliverables
 
 Detailed Solution
 
-Data preparation
+Data visualization
 
 Since, dataset is taken from repo - https://github.com/mariel-pettee/choreo-graph/tree/main. I reused the code to run in colab to visualize dataset.
 
@@ -63,10 +63,20 @@ upload_npy_files()           # Colab interface to upload .npy files (if needed)
 ```
 
 
-Model Structure
+Data preparation:
+
+    I labeled dataset through webapp mentioned https://github.com/geometric-intelligence/pirounet to label around 1% of data (around 70). I am using same pirounet architecture (https://arxiv.org/abs/2207.12126) to extend data labeling to other dataset.
+
+Model Structure:
+
+    I will use labeled data to train a neural network that uses contrastive learning to embed short fixed-length dance phrases. More details soon.
 
 
+Generated Results:
 
-Generated Results
+    Examples on a small holdout test set will appear here:
+    Generating a dance sequence from a natural language input 
+    Generating natural language from a dance sequence input
+
 
 
