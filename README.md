@@ -65,7 +65,7 @@ upload_npy_files()           # Colab interface to upload .npy files (if needed)
 
 Data preparation:
 
-    I labeled dataset through webapp mentioned https://github.com/geometric-intelligence/pirounet to label around 1% of data (around 70). I am using same pirounet architecture (https://arxiv.org/abs/2207.12126) to extend data labeling to other dataset.
+    I labeled dataset through webapp mentioned https://github.com/geometric-intelligence/pirounet to label around 1% of data (around 70). I am using same pirounet architecture (https://arxiv.org/abs/2207.12126) to extend data labeling to other dataset. The colab with filename "dance_ai_exp.ipynb" contains visualization.
 
 Model Structure:
 
