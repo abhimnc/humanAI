@@ -37,7 +37,7 @@ Detailed Solution
 
 Data preparation
 
-Since, data is taken from repo - https://github.com/mariel-pettee/choreo-graph/tree/main. I configured code to run in colab to visualize dataset.
+Since, dataset is taken from repo - https://github.com/mariel-pettee/choreo-graph/tree/main. I reused the code to run in colab to visualize dataset.
 
 Overflow flow code:
 ```
