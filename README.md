@@ -33,3 +33,32 @@ Key Deliverables
     Create a natural language description of those phrases into a single shared embedding space.
 
 
+Detailed Solution
+
+Data preparation
+
+Since, data is taken from repo - https://github.com/mariel-pettee/choreo-graph/tree/main. I configured code to run in colab to visualize dataset.
+
+Overflow flow code:
+main()
+│
+├── load_data(pattern)                 # Loads and processes .npy motion capture data
+│   ├── Normalizes data
+│   ├── Computes velocity
+│   └── Stacks positions + velocities
+│
+├── animate_stick(...)                # Creates stick-figure animation from motion sequence
+│   ├── get_line_segments(...)        # Computes line segments for joints (skeleton & cloud)
+│   └── put_lines(...)                # Adds 3D line segments to the plot (skeleton & cloud)
+│
+├── display(HTML(anim.to_jshtml()))   # Displays the animation in a Jupyter/Colab notebook
+│
+└── (Optionally)
+    └── save_animation(...)           # Saves animation as a video (MP4) and offers download
+    
+Other Supporting Functions (Used Separately or Conditionally)
+create_sample_data()         # Generates synthetic walking motion data (for testing)
+upload_npy_files()           # Colab interface to upload .npy files (if needed)
+
+
+Model Structure
