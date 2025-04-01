@@ -22,7 +22,7 @@ Solution Approach
 
 The comprehensive solution plan involves:
 
-    More detail will be added before.
+    Basically I am using Pirounet paper (https://arxiv.org/abs/2207.12126) and source code as a source of inspiration (https://github.com/geometric-intelligence/pirounet/tree/main). I will use natural language label instead of integers to genrate dance moves. I am using the the same lablan effort axis - Time and Space. Since already labeled data is present in repo (or we can create using the weapp), I will use Pirounet to extend it to whole dataset.
 
 
 Key Deliverables
