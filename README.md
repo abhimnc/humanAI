@@ -40,6 +40,7 @@ Data preparation
 Since, data is taken from repo - https://github.com/mariel-pettee/choreo-graph/tree/main. I configured code to run in colab to visualize dataset.
 
 Overflow flow code:
+```
 main()
 │
 ├── load_data(pattern)                 # Loads and processes .npy motion capture data
@@ -59,6 +60,7 @@ main()
 Other Supporting Functions (Used Separately or Conditionally)
 create_sample_data()         # Generates synthetic walking motion data (for testing)
 upload_npy_files()           # Colab interface to upload .npy files (if needed)
+```
 
 
 Model Structure
