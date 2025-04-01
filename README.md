@@ -7,7 +7,7 @@ For a hands-on experience, dive into my Google Colab Notebook which provides an 
 
 Problem Addressed
 
-This project aims at solving two coding problems provided in test document.
+This project aims at solving two coding problems provided in test document. The relevant questions are anwsered in “why_this_project.md”.
 It outlines a approach to Animate some dance data and Train a multimodal model of dance & text.
 
 
